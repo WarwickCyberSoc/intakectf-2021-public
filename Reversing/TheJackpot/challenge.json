@@ -1,0 +1,21 @@
+{
+    "title": "The Jackpot",
+    "description": "Spin to win! If you manage to defeat our system and get a 777, we'll give you a flag.",
+    "author": "Josh",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Medium",
+    "hint": "What's the win requirement and how can you influence it?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "app/jackpot.py",
+    "tags": [
+        "Scripting"
+    ],
+    "education_resources": [
+        "https://docs.python.org/3/library/random.html#random.seed"
+    ],
+    "flag": "WMG{SeED_Y0uR_RAnD0m_NUmBer_G3nERaToRS_PrOpErLy!11!}",
+    "disabled": false,
+    "deployment_id": "jackpot"
+}

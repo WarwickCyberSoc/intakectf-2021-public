@@ -1,0 +1,2 @@
+Go into audacity, go to the audio track dropdown then view the spectogram
+

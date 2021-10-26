@@ -1,0 +1,17 @@
+{
+    "title": "ERR_TOO_MANY_REDIRECTS",
+    "description": "My site is going crazy! It just keeps redirecting people!",
+    "author": "Ziemni",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "You'll probably want to script this one...",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [],
+    "education_resources": [],
+    "flag": "WMG{ivespendsignificantlytoolongwritingthis}",
+    "disabled": false,
+    "deployment_id": "redirects"
+}

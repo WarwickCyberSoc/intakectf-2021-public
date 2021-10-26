@@ -1,0 +1,21 @@
+{
+    "title": "What's this weird string?",
+    "description": "V01He0JBc0VfNjRfSXNfQVdlU29tRX0=",
+    "author": "Josh",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Very Easy",
+    "hint": "CyberChef's 'Magic' method may help here...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "",
+    "tags": [
+        "Encoding"
+    ],
+    "education_resources": [
+        "https://datatracker.ietf.org/doc/html/rfc4648",
+        "https://gchq.github.io/CyberChef/"
+    ],
+    "flag": "WMG{BAsE_64_Is_AWeSomE}",
+    "disabled": false
+}

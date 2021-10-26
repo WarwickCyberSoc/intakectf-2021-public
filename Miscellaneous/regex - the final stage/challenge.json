@@ -1,0 +1,22 @@
+{
+    "title": "regex: the final stage",
+    "description": "Turns out, we're not done with the regex yet. But, I assure you, this is the last step to becoming a regex god",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "Might take a while if you did it manually",
+    "unlock_requirement": "regex102",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Regular Expression"
+    ],
+    "education_resources": [
+        "https://regex101.com",
+        "https://en.wikipedia.org/wiki/Regular_expression"
+    ],
+    "flag": "WMG{t00_much_r3g3x_pl345e_St0p}",
+    "disabled": false,
+    "deployment_id": "regexfinal"
+}

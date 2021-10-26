@@ -1,0 +1,17 @@
+{
+  "title": "FanFix",
+  "description": "FanFix, the best fan fictions around.\n\nAn automated script will reset the challenge every once in a while (not in the files).",
+  "author": "Josh",
+  "points": 500,
+  "category": "Web",
+  "difficulty": "Hard",
+  "hint": "That's a weird Redis verison.",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "fanfix.zip",
+  "tags": [],
+  "education_resources": ["https://portswigger.net/web-security/cross-site-scripting", "https://portswigger.net/web-security/ssrf"],
+  "flag": "WMG{FiXEd_In_lATEr_REd15_V3rSi0nS_BuT_ST1LL_4UN}",
+  "disabled": false,
+  "deployment_id": "fanfiction"
+}

@@ -1,0 +1,112 @@
+version: "3"
+
+x-deployment:
+  stack: "pwn"
+
+services:
+  bof1:
+    build: ./bof1/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42001:42001
+  bof2:
+    build: ./bof2/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42002:42002
+  bof3:
+    build: ./bof3/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42003:42003
+  bof4:
+    build: ./bof4/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42004:42004
+  bof5:
+    build: ./bof5/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42005:42005
+  bof6:
+    build: ./bof6/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42006:42006
+  reading_time:
+    build: ./reading_time/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42007:5000
+  segfault_me:
+    build: ./segfault_me/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42008:5000
+  write_to_address:
+    build: ./write_to_address/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42009:5000
+  no_more_n:
+    build: ./no_more_n/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42010:5000
+  fork_you:
+    build: ./fork_you/server
+    read_only: true
+    restart: on-failure
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 42011:5000
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

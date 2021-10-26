@@ -1,0 +1,16 @@
+{
+  "title": "Don't use strings",
+  "description": "No seriously, don't use strings - you'll regret it",
+  "author": "Adam",
+  "points": 500,
+  "category": "Reversing",
+  "difficulty": "Hard",
+  "hint": "I told you not to use strings - dynamic is better...",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "dont_use_strings",
+  "tags": ["Reversing"],
+  "education_resources": [],
+  "flag": "WMG{i_know_you_tried_strings_again_123}",
+  "disabled": false
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Baby Rusty Key",
+    "description": "Brand new tech! A new flag storing program has been developed, you'll need a license to use it of course but I'm sure you'll pay me for it.",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Easy",
+    "hint": "Look at the verify_license function. What happens if you get a valid key?",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "release/baby_rusty_key",
+    "tags": [
+        "Reversing",
+        "Rust"
+    ],
+    "education_resources": [
+        "http://jolmos.blogspot.com/2019/10/reversing-rust-string-and-str-datatypes.html",
+        "https://www.youtube.com/watch?v=qS4VWL5R_OM",
+        "https://rayoflightz.github.io/re/rust/2020/05/19/Bite-Sized-Rust-RE-1-Deconstructing-Hello-World.html"
+    ],
+    "flag": "WMG{3z_w4Y_t0_l1cense_the_pr0gr4m}",
+    "disabled": false
+}

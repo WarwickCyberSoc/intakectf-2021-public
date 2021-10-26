@@ -1,0 +1,109 @@
+version: "3"
+
+x-deployment:
+  stack: "misc"
+
+services:
+  quick_maffs:
+    build: ./quickmaffs
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20000:8000
+  redirects:
+    build: ./redirects
+    #    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20001:80
+  regex100:
+    build: ./regex100
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20002:5000
+  regex101:
+    build: ./regex101
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20003:5000
+  regex102:
+    build: ./regex102
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20004:5000
+  regexfinal:
+    build: "./regex - the final stage"
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20005:5000
+  revshell1:
+    build: "./Reverse Shell 1"
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20006:80
+  revshell2:
+    build: "./Reverse Shell 2"
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20007:80
+  secureshell:
+    build: "./secureshell"
+    read_only: true
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - "20008:22"
+  timing_is_everything:
+    build: "./timing_is_everything/server"
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20009:5000
+  pyjail:
+    build: "./pyjail/server"
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 20010:5000
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

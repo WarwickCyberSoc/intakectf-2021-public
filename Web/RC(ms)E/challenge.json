@@ -1,0 +1,25 @@
+{
+    "title": "RC(ms)E",
+    "description": "I heard this CMS had a vulnerability, maybe you can exploit it for me?",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Easy",
+    "hint": "Googling exploits for the service might be the best place to start",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "CVE",
+        "Remote Code Execution"
+    ],
+    "education_resources": [
+        "https://www.exploit-db.com/",
+        "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures",
+        "https://www.sciencedirect.com/topics/computer-science/remote-code-execution"
+    ],
+    "flag": "WMG{4ny7h1ng c4n h4v3 a CVE}",
+    "disabled": false,
+    "deployment_id": "rcmse"
+}
+

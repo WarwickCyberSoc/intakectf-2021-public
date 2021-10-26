@@ -1,0 +1,17 @@
+{
+    "title": "No More N",
+    "description": "Don't get blocked",
+    "author": "Adam",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Hard",
+    "hint": "A read is all you need - maybe it doesn't have to be blind any more",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": ["Format String", "Blind"],
+    "education_resources": [],
+    "flag": "WMG{7g8rOtE9Jy8}",
+    "disabled": false,
+    "deployment_id": "no_more_n"
+}

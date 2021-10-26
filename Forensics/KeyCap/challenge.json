@@ -1,0 +1,22 @@
+{
+    "title": "KeyCap",
+    "description": "We've captured some data over the air! Can you decode it?",
+    "author": "Angus",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Hard",
+    "hint": "You're looking at a Bluetooth Keyboard. The payload section looks pretty interesting...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "capture",
+    "tags": [
+        "Scripting",
+        "Reverse Engineering",
+        "PCAP Analysis"
+    ],
+    "education_resources": [
+        ""
+    ],
+    "flag": "WMG{pIncH3d_FrOm_tH3_Air5598763}",
+    "disabled": false
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Zip Crypto",
+    "description": "Can you recover the flag from this archive?",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Medium",
+    "hint": "See if you can find any of the files online.",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "zip_crypto.zip",
+    "tags": [
+        "ZipCrypto"
+    ],
+    "education_resources": [
+        "https://link.springer.com/content/pdf/10.1007/3-540-60590-8_12.pdf"
+    ],
+    "flag": "WMG{zipcrypto_more_like_zipcryptno_1b5c6b89}",
+    "disabled": false
+}

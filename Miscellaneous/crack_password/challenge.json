@@ -1,0 +1,21 @@
+{
+    "title": "Your Password Hash Is Mine!",
+    "description": "I managed to steal a password hash from a website! Can you crack it for me: `steve:b3bd446fc33849ff7b454d5615f407fa70520fb3dde46893fea2292b5f8f1848`. Note, the flag is in the format `WMG{the_password}`.",
+    "author": "Josh",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Very Easy",
+    "hint": "You can use `hashid` to identify what type the hash is.",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "",
+    "tags": [
+        "Tools"
+    ],
+    "education_resources": [
+        "https://tools.kali.org/password-attacks/john",
+        "https://tools.kali.org/password-attacks/hashcat"
+    ],
+    "flag": "WMG{matthewismyboi}",
+    "disabled": false
+}

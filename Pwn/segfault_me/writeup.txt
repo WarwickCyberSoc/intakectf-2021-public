@@ -1,0 +1,1 @@
+Our buffer length is only 30 characters. Sending a payload of 30+ characters should seg fault, revealing the flag.

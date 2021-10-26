@@ -1,0 +1,2 @@
+#The exploitdb exploit makes a bunch of php files that can sometimes persist on host, don't add these
+*.php

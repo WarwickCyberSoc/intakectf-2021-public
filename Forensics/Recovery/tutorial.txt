@@ -1,0 +1,16 @@
+# 1
+    You have .disk (we know this from netkit)
+    file shows it's a cowfile
+    educational link for uml_moo can be used
+    merge cowfile with base netkit filesystem:
+        uml_moo -b $NETKIT_HOME/fs/netkit-fs jdbjdbPC.disk recoveredFileSystem
+    mount with sudo mount recoveredFileSystem /mnt/
+    cd /mnt
+    cd /home/jdbjdb/Desktop
+
+# 2
+there is keepass database, note references leaked passwords
+educational link shows how to get hash with keepass2john
+run john/hashcat on hash to get password of 13153982992
+
+FLAG INSIDE

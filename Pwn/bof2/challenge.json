@@ -1,0 +1,21 @@
+{
+    "title": "Buffer Overflow 2",
+    "description": "Overflow the buffer and get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Easy",
+    "hint": "`printf`",
+    "unlock_requirement": "Buffer Overflow 1",
+    "url": "SET ME LATER PLEASE",
+    "file": "bof2.zip",
+    "tags": [
+        "Buffer Overflow"
+    ],
+    "education_resources": [
+        "https://youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+    ],
+    "flag": "WMG{as_easy_as_fed_7d5b9936}",
+    "disabled": false,
+    "deployment_id": "bof2"
+}

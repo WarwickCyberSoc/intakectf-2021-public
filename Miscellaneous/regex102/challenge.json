@@ -1,0 +1,23 @@
+{
+    "title": "regex102",
+    "description": "REGEX: The final form",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "Break it down, do each part individually, https://regex101.com can once again help you",
+    "unlock_requirement": "regex101",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Regular Expression"
+    ],
+    "education_resources": [
+        "https://regex101.com",
+        "https://en.wikipedia.org/wiki/Regular_expression"
+    ],
+    "flag": "WMG{m0r3_r3gex_m0r3_p4in}",
+    "disabled": false,
+    "deployment_id": "regex102"
+}
+

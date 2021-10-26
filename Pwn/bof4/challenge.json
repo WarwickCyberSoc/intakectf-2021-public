@@ -1,0 +1,22 @@
+{
+    "title": "Buffer Overflow 4",
+    "description": "Overflow the buffer and get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Medium",
+    "hint": "Have you ever heard of a ROP chain?",
+    "unlock_requirement": "Buffer Overflow 3",
+    "url": "SET ME LATER PLEASE",
+    "file": "bof4.zip",
+    "tags": [
+        "Buffer Overflow",
+        "ROP"
+    ],
+    "education_resources": [
+        "https://youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+    ],
+    "flag": "WMG{dont_point_that_thing_at_me_8426464d}",
+    "disabled": false,
+    "deployment_id": "bof4"
+}

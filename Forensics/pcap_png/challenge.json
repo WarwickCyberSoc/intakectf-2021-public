@@ -1,0 +1,15 @@
+{
+  "title": "POIP",
+  "description": "Can you piece together what's been sent over this connection?",
+  "author": "Angus",
+  "points": 500,
+  "category": "Forensics",
+  "difficulty": "Medium",
+  "hint": "What's changing between each packet?",
+  "url": "",
+  "file": "poip.pcapng",
+  "tags": ["PCAP Analysis"],
+  "education_resources": [],
+  "flag": "WMG{POIP_STANDS_FOR_PNG_OVER_IP}",
+  "disabled": false
+}

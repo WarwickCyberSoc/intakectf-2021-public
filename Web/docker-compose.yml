@@ -1,0 +1,96 @@
+version: "3"
+
+x-deployment:
+  stack: "web"
+
+services:
+  anonchat:
+    build: ./Anonchat
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45000:80
+  back2basics:
+    build: ./back2basics
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45001:8080
+  curlintro:
+    build: ./curlintro
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45002:8080
+  flask_ssti:
+    build: ./flask_ssti_basic
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45003:5000
+  flask_ssti:
+    build: ./flask_ssti_basic
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45003:5000
+  prototype_pollution:
+    build: ./prototype_pollution
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45004:3000
+  russian_download:
+    build: ./russian_download
+    # read_only: true
+    # cap_drop:
+    #   - "ALL"
+    # security_opt:
+    #   - "no-new-privileges"
+    ports:
+      - 45005:80
+  werkzeug_secret_leak:
+    build: ./werkzeug_secret_leak
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45006:8000
+  xxe:
+    build: ./xxe
+    read_only: true
+    cap_drop:
+      - "ALL"
+    tmpfs:
+        - "/run:noexec,nosuid,nodev,uid=33,gid=33"
+        - "/var/run:noexec,nosuid,nodev,uid=33,gid=33"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 45007:80
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

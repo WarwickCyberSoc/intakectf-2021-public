@@ -1,0 +1,23 @@
+{
+    "title": "Buffer Overflow 6",
+    "description": "Overflow the buffer and get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Very Hard",
+    "hint": "You will need to leak some addresses to defeat ASLR. Also be wary that some functions need a 16-byte aligned stack.",
+    "unlock_requirement": "Buffer Overflow 5",
+    "url": "SET ME LATER PLEASE",
+    "file": "bof6.zip",
+    "tags": [
+        "Buffer Overflow",
+        "ROP"
+    ],
+    "education_resources": [
+        "https://youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN",
+        "https://www.cameronwickes.co.uk/stack-alignment-ubuntu-18-04-movaps/"
+    ],
+    "flag": "WMG{wot_no_win_function_6036990c}",
+    "disabled": false,
+    "deployment_id": "bof6"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Last Picture of Time",
+  "description": "This is a picture of the last stegosaurus alive: he's called Jay. Maybe he has some secrets to tell?",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "There's a specific tool for Jay stegosaura",
+  "unlock_requirement": "More pictures, more information",
+  "url": "",
+  "file": "challenge.jpg",
+  "tags": ["Tools", "Metadata", "Images"],
+  "education_resources": ["https://en.wikipedia.org/wiki/Metadata#Photographs"],
+  "flag": "WMG{st3g4n0gr4phy_1s_4_l1e}",
+  "disabled": false
+}

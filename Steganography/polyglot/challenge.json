@@ -1,0 +1,16 @@
+{
+  "title": "geometric dissolvement",
+  "description": "mmm yes, the flag hide among the file",
+  "author": "Josh",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Medium",
+  "hint": "the image exists, but what else?",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "surreal.jpg",
+  "tags": [],
+  "education_resources": ["https://hackaday.com/2018/11/07/shakespeare-in-a-zip-in-a-rar-hidden-in-an-image-on-twitter"],
+  "flag": "WMG{p0lYgl07_fIL35_AR3_GR3A7_F0r_HIDINg_Da7A_fr0M_5crU82}",
+  "disabled": false
+}

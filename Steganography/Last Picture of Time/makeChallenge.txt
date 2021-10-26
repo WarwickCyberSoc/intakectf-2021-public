@@ -1,0 +1,3 @@
+git clone https://github.com/lukechampine/jsteg
+cp jsteg/jsteg-linux-amd64 .
+./jsteg-linux-amd64 hide dino.png flag.txt

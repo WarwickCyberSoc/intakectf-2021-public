@@ -1,0 +1,29 @@
+version: "3"
+
+x-deployment:
+  stack: "web-rcmse"
+  challenge_id: "rcmse"
+  challenge_service: "web"
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    links:
+      - mysql
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile.db
+    environment:
+      MYSQL_ROOT_PASSWORD: "?Fz&3&@yfr9XPbC@"
+      MYSQL_USER: "examiner"
+      MYSQL_PASSWORD: "SecurePassword1234560123456"
+      MYSQL_DATABASE: "webapp"
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

@@ -1,0 +1,21 @@
+{
+    "title": "Bin 2",
+    "description": "It's time to look at the bin again, the password isn't as clear this time",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Very Easy",
+    "hint": "The password is still there",
+    "unlock_requirement": "Bin",
+    "url": "",
+    "file": "bin2",
+    "tags": [
+        "RE",
+        "Binary"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Binary_file"
+    ],
+    "flag": "WMG{it'5_s71ll_r34lly_ea5y}",
+    "disabled": false
+}

@@ -1,0 +1,5 @@
+#make
+https://barcode.tec-it.com/en/MaxiCode?data=WMG{str4ng3_c0d3}
+
+#Solution 
+https://products.aspose.app/barcode/recognize/maxicode

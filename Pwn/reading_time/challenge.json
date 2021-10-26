@@ -1,0 +1,17 @@
+{
+  "title": "Reading Time",
+  "description": "You said you've been reading, well now it's time to read a little deeper",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Pwn",
+  "difficulty": "Easy",
+  "hint": "CWE 125",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "reading.tar.gz",
+  "tags": ["TODO"],
+  "education_resources": ["https://man7.org/linux/man-pages/man3/scanf.3.html", "https://cwe.mitre.org/about/index.html"],
+  "flag": "WMG{ju5t_r34d_Th3_fl@g!!!}",
+  "disabled": false,
+  "deployment_id": "reading_time"
+}

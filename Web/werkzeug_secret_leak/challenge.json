@@ -1,0 +1,22 @@
+{
+    "title": "Production-ready JSON formatter",
+    "description": "We've launched a JSON formatter, only 3 months after the deadline and over-budget by \u00a350k!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Medium",
+    "hint": "What happens if you modify the POSTed fields?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Flask",
+        "Werkzeug"
+    ],
+    "education_resources": [
+        "https://werkzeug.palletsprojects.com/en/2.0.x/debug/"
+    ],
+    "flag": "WMG{d0n7_run_y0ur_fl45k_4pp5_1n_d3bu6_m0d3_f0r_pr0duc710n!}",
+    "disabled": false,
+    "deployment_id": "werkzeug_secret_leak"
+}

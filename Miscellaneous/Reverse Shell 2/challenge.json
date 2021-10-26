@@ -1,0 +1,24 @@
+{
+    "title": "Reverse Shell 2",
+    "description": "Time to do it yourself!",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Very Easy",
+    "hint": "Just follow the guide :)",
+    "unlock_requirement": "Reverse Shell 1",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Reverse Shell"
+    ],
+    "education_resources": [
+        "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md",
+        "https://en.wikipedia.org/wiki/Arbitrary_code_execution",
+        "https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet",
+        "https://www.offensive-security.com/metasploit-unleashed/binary-payloads/"
+    ],
+    "flag": "WMG{n0w_y0Ur3_p0Pp1n_sH3llz}",
+    "disabled": false,
+    "deployment_id": "revshell2"
+}

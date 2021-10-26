@@ -1,0 +1,18 @@
+{
+    "title": "Glitched IMC?",
+    "description": "We have two images of the IMC, but one of them has glitched! Can you find the flag?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Stego",
+    "difficulty": "Medium",
+    "hint": "What's different between the two files?",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "imc.zip",
+    "tags": [],
+    "education_resources": [
+        "https://linux.die.net/man/1/cmp"
+    ],
+    "flag": "WMG{D1FF_ThE_ByT3s}",
+    "disabled": false
+}

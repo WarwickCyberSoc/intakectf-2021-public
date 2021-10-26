@@ -1,0 +1,20 @@
+{
+    "title": "🤏 🍆",
+    "description": "This time, there's no way that e is too small - I made sure of it!",
+    "author": "Adam",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Easy",
+    "hint": "Wait, now e is way too big!",
+    "unlock_requirement": "This is textbook security...",
+    "url": "",
+    "file": "output.txt",
+    "tags": [
+        "RSA"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/RSA_(cryptosystem)"
+    ],
+    "flag": "WMG{its_about_how_you_use_it}",
+    "disabled": false
+}

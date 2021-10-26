@@ -1,0 +1,2 @@
+space.png has flag already - use original for recreation
+exiftool -artist='WMG{metadata_h45_l04d5_0f_1nf0}' space.png 

@@ -1,0 +1,22 @@
+{
+    "title": "Story Writer",
+    "description": "Our reviewer is looking for the new best selling story! Submit your stories here and they'll review them for you!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Easy",
+    "hint": "What happens if you try use HTML tags in your story?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "XSS"
+    ],
+    "education_resources": [
+        "https://portswigger.net/web-security/cross-site-scripting",
+        "https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-stealing-cookies"
+    ],
+    "flag": "WMG{YOiNk_My_C00kiEs_NoW!}",
+    "disabled": false,
+    "deployment_id": "xss"
+}

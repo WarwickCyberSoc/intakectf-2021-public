@@ -1,0 +1,8 @@
+to recreate
+
+start the lab
+
+tcpdump -i eth1 -w /hostlab/ftp.pcap &
+on b machine
+
+then do loads of ftp logins

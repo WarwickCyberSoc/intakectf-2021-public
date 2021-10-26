@@ -1,0 +1,17 @@
+{
+  "title": "Anonchat",
+  "description": "The anonchat client is still in beta but there seems to be a major issue with it.\n\nThe flag is in the root directory.",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Web",
+  "difficulty": "Easy",
+  "hint": "The cookie holds a hint",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "",
+  "tags": ["Reverse Shell", "Remote Code Execution"],
+  "education_resources": [],
+  "flag": "WMG{d0n7_bl1ndly_d3ser1alIz3_user_1npuT}",
+  "disabled": false,
+  "deployment_id": "anonchat"
+}

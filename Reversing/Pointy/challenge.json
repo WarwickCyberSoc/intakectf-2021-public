@@ -1,0 +1,22 @@
+{
+    "title": "Pointy",
+    "description": "Someone sent me this program but I don't get the point of it. I can't even figure out the correct password",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Very Easy",
+    "hint": "You might need a sharp mind for this one",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "Pointy.exe",
+    "tags": [
+        "RE",
+        "Binary",
+        "Decompile"
+    ],
+    "education_resources": [
+        "https://dotnet.microsoft.com/"
+    ],
+    "flag": "WMG{b0r1n6_e45y_r3v3r51ng}",
+    "disabled": false
+}

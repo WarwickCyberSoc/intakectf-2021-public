@@ -1,0 +1,22 @@
+{
+    "title": "Decaf",
+    "description": "Something strange is going on with this program and I've not had enough coffee to solve it, can you?",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Easy",
+    "hint": "Title is a big hint",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "decaf.jar",
+    "tags": [
+        "RE",
+        "Binary",
+        "Decompile"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Bytecode"
+    ],
+    "flag": "WMG{j4v4_suckz!_why_4r3_th3_l1n3s_s0_LonG}",
+    "disabled": false
+}

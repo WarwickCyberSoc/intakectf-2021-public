@@ -1,0 +1,10 @@
+services:
+  server:
+    cap_add: [CAP_LINUX_IMMUTABLE]
+    build: .
+    ports:
+        - 8000:80
+    # volumes:
+    #   - ./app:/app:Z
+    
+    

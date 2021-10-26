@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Try it out</title>
+<!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/animate.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/font-awesome.min.css') }}">
+  	<link rel="stylesheet" href="{{ url_for('assets',path='/css/component.css') }}">
+	
+    <link rel="stylesheet" href="{{ url_for('assets',path='/css/owl.theme.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/owl.carousel.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/vegas.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/style.css') }}">
+    <script src="{{ url_for('assets',path='/js/customs.js') }}"></script>
+   
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<style>
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    *{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+   
+</style>
+<body>
+
+
+
+
+<!-- Contact section -->
+<section id="tryitout">
+    <section id="contact">
+      <div class="container" id="#theForm">
+        <div class="row">
+    
+           <div class="col-md-offset-1 col-md-10 col-sm-12">
+    
+            <div class="col-lg-offset-1 col-lg-10 section-title  ">
+              <h1>Try getting a reverse shell!</h1>
+              <p>Using the <code>-e</code> flag, get a shell with netcat</p>
+            </div>
+            
+            <form action="" method="post" >
+              <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3" >
+                <input name="command" type="text" class="form-control" id="command" placeholder="Command">
+              </div>
+    
+              <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                <input type="submit" class="form-control" value="SEND SHELL">
+              </div>
+              <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8" style="text-align: center;">
+                
+                <p>{{ runningCommand | safe }}</p>
+                
+              </div>
+            </form>
+           
+          </div>
+    
+        </div>
+      </div>
+    
+    
+    </section>
+    </section>
+
+    
+<!-- Javascript  -->
+<script src="{{ url_for('assets',path='/js/jquery.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/vegas.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/modernizr.custom.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/toucheffects.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/smoothscroll.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/wow.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/custom.js') }}"></script>
+
+</body>
+</html>

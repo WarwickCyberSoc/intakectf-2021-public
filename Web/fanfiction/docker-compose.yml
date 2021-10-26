@@ -1,0 +1,18 @@
+version: "3"
+
+x-deployment:
+  stack: "web-fanfiction"
+  challenge_id: "fanfiction"
+  challenge_service: "web"
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "80:80"
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

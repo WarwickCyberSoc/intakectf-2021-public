@@ -1,0 +1,39 @@
+version: "3"
+
+x-deployment:
+  stack: "reversing"
+
+services:
+  rusty_key:
+    build: ./rusty_key
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 35000:5000
+  grandad_rusty_key:
+    build: ./grandad_rusty_key
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 35001:5000
+  jackpot:
+    build: ./TheJackpot
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 35002:5000
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

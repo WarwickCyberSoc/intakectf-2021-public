@@ -1,0 +1,39 @@
+Using JohnTheRipper:
+echo -n 'steve:b3bd446fc33849ff7b454d5615f407fa70520fb3dde46893fea2292b5f8f1848' > hash.txt
+
+john hash.txt --format=Raw-SHA256 --wordlist=/usr/share/wordlists/rockyou.txt
+
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-SHA256 [SHA256 256/256 AVX2 8x])
+Warning: poor OpenMP scalability for this hash type, consider --fork=4
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+matthewismyboi   (steve)
+1g 0:00:00:00 DONE (2021-08-03 16:30) 7.142g/s 11234Kp/s 11234Kc/s 11234KC/s meisawesome..lindardm23
+Use the "--show --format=Raw-SHA256" options to display all of the cracked passwords reliably
+Session completed
+
+
+Using hashcat:
+echo -n 'hashcat -m 1400 hash.txt /usr/share/wordlists/rockyou.txt' > hash.txt
+
+hashcat -m 1400 hash.txt /usr/share/wordlists/rockyou.txt
+
+b3bd446fc33849ff7b454d5615f407fa70520fb3dde46893fea2292b5f8f1848:matthewismyboi
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: SHA2-256
+Hash.Target......: b3bd446fc33849ff7b454d5615f407fa70520fb3dde46893fea...8f1848
+Time.Started.....: Tue Aug  3 16:33:07 2021 (1 sec)
+Time.Estimated...: Tue Aug  3 16:33:08 2021 (0 secs)
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  2871.2 kH/s (0.35ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 1519616/14344385 (10.59%)
+Rejected.........: 0/1519616 (0.00%)
+Restore.Point....: 1515520/14344385 (10.57%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#1....: max1234567 -> marypearl
+

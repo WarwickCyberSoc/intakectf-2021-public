@@ -1,0 +1,24 @@
+{
+    "title": "Bin 4",
+    "description": "The bin returns! Now we've made sure we encrypt our secrets",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Easy",
+    "hint": "Remeber all the CTF flags start with the same 4 characters...",
+    "unlock_requirement": "Bin 3",
+    "url": "",
+    "file": "bin4",
+    "tags": [
+        "RE",
+        "Binary"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Binary_file",
+        "https://github.com/radareorg/radare2",
+        "https://cutter.re/",
+        "https://en.wikipedia.org/wiki/Hexadecimal"
+    ],
+    "flag": "WMG{x0r1ng_d035n't_3ncrypT_s7uff}",
+    "disabled": false
+}

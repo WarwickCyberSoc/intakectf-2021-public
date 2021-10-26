@@ -1,0 +1,30 @@
+[package]
+name="baby_rusty_key"
+version="1.0.0"
+
+[dependencies]
+litcrypt = "0.3.0"
+#cursive has it's own now
+crossbeam-channel = "0.5.1"
+anyhow = "1.0.43"
+ctrlc = "3.2.0"
+chrono = "0.4.19"
+
+[dependencies.cursive]
+version = "0.16"
+#use different backend since ncurses can go fuck itself with its issues
+default-features = false
+#the most compatible with other version
+features = ["crossterm-backend"]
+
+[profile.release]
+opt-level = "z"
+codegen-units=1
+
+#RUSTFLAGS='-C target-feature=+crt-static' cargo build --release --target x86_64-unknown-linux-gnu
+# strip binary
+# strip -s -g -S -d --strip-dwo --strip-unneeded -x -X
+# strip -w -K \!'*menu*' -K '*' baby_rusty_key
+
+
+#LITCRYPT_ENCRYPT_KEY='4ae933b4e9cdb7125e6c3828a7ffb8329d8df2c2f773d54def618d6de48d571971b631f4245a56664dc32bea682402974ae933b4e9cdb7125e6c3828a7ffb832asdfgsdgv0d523418bf9cb6a4ee87aea21d76b2f90de1ff5cc5e554f7cfc0f671f073c7bd'

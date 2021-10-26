@@ -1,0 +1,15 @@
+{
+  "title": "Tick Tock",
+  "description": "Our database was breached! Luckily, we had packet captures for when the hacker was exfiltrating the data! Can you find the data they exfiltrated?",
+  "author": "Josh",
+  "points": 500,
+  "category": "Forensics",
+  "difficulty": "Medium",
+  "hint": "How does the hacker determine the data within the table? How can you determine the successful queries from the packet capture?",
+  "url": "",
+  "file": "hacker_exfiltration.pcapng",
+  "tags": ["SQLi", "Packet Analysis"],
+  "education_resources": ["https://www.wireshark.org/", "https://owasp.org/www-community/attacks/Blind_SQL_Injection"],
+  "flag": "WMG{T1Ck_T0Ck_GoEs_Th3_D4TA}",
+  "disabled": false
+}

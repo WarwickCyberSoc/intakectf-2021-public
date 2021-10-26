@@ -1,0 +1,17 @@
+{
+  "title": "quick maffs",
+  "description": "Sometimes in CTFs, you'll want to write a script to run an exploit. Here's a chance to try your scripting skills with a time based challenge!\n\nSend a GET request to the challenge URL below for further instructions!",
+  "author": "Josh",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Easy",
+  "unlock_requirement": "",
+  "hint": "Python's `requests` module is very handy for these sorts of challenges.",
+  "url": "SET ME LATER PLEASE",
+  "file": "",
+  "tags": ["Scripting"],
+  "education_resources": [],
+  "flag": "WMG{ScRipTInG_Is_VeRY_VeRY_UseFul_IsnT_It}",
+  "disabled": false,
+  "deployment_id": "quick_maffs"
+}

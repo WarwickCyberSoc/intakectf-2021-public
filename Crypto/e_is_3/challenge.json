@@ -1,0 +1,20 @@
+{
+    "title": "This is textbook security...",
+    "description": "I implemented RSA! It's so easy!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Easy",
+    "hint": "What's the problem with short messages and a small `e`?",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "textbook_rsa.zip",
+    "tags": [
+        "RSA"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/RSA_(cryptosystem)"
+    ],
+    "flag": "WMG{PlZ_DonT_Ro11_Y0ur_0wn_Crypt0}",
+    "disabled": false
+}

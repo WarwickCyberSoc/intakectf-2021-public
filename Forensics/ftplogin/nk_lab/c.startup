@@ -1,0 +1,11 @@
+ifconfig eth0 10.65.21.65 netmask 255.255.0.0 up
+route add default gw 10.65.42.1
+
+mkdir /ftpshare
+addgroup ftpgroup
+
+password=$(openssl passwd -6 -salt fnaw 'WMG{AlWAyS_USe_SeCuRE_VerSionS_Of_ProTOCols}')
+useradd -d /ftpshare -s /bin/false --groups ftpgroup --password "$password" peter_n
+
+password=$(openssl passwd -6 -salt fnaw 'test')
+useradd -d /ftpshare -s /bin/false --groups ftpgroup --password "$password" test

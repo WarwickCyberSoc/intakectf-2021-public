@@ -1,0 +1,9 @@
+### INSTRUCTIONS FOR GENERATING 0x0 PNG IMAGES ###
+
+1) Grab your image
+2) Resize it to a decent size (under 1000x1000, we don't want them brute forcing forever)
+3) Use Cyberchef "Add text to image" https://gchq.github.io/CyberChef/#recipe=Add_Text_To_Image('WMG%7BBruT3_F0rc3_Fun%7D','None','None',0,80,32,'Roboto',255,20,20,255)
+4) Download said image
+5) Compile and run "zero_out_image.c", with an argument of the newly downloaded file
+
+Done.

@@ -1,0 +1,20 @@
+{
+    "title": "RIP Terminal",
+    "description": "Binary files tend to ruin your terminal, maybe it's best to use some tools to help interpret them!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "grep is your friend!",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "binary_data.txt",
+    "tags": [
+        "Tools"
+    ],
+    "education_resources": [
+        "https://linux.die.net/man/1/grep"
+    ],
+    "flag": "WMG{BinArY_FilES_RuIn_TermINalS}",
+    "disabled": false
+}

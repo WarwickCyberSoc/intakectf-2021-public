@@ -1,0 +1,21 @@
+{
+    "title": "Picture it",
+    "description": "A client turned their PC off before they properly saved their credentials, luckily we got a dump before computer fully turned off",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Easy",
+    "hint": "Try and picture what would have been on the screen before the computer turned off",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "memdump.7z",
+    "tags": [
+        "Memory Analysis"
+    ],
+    "education_resources": [
+        "https://github.com/volatilityfoundation/volatility",
+        "https://book.hacktricks.xyz/forensics/basic-forensic-methodology/memory-dump-analysis/volatility-examples"
+    ],
+    "flag": "WMG{m3m0ry_dumpz_c4n_B_hug3}",
+    "disabled": false
+}

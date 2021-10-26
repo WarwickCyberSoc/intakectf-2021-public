@@ -1,0 +1,19 @@
+{
+    "title": "Data Breach!",
+    "description": "Our company's customer database has been leaked and uploaded to this file hosting site! Our IDS only managed to keep track of 64MB of the data exfiltrated before the hackers killed it. We can't download the file fast enough, the speed is horrible! Can you find the flag?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Medium",
+    "hint": "How do browsers resume downloads?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "HTTP"
+    ],
+    "education_resources": [],
+    "flag": "WMG{d0wnl04d_l1m175_4r3_n0_ch4ll3n63_f0r_y0u}",
+    "disabled": false,
+    "deployment_id": "russian_download"
+}

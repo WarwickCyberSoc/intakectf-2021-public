@@ -1,0 +1,17 @@
+{
+  "title": "My First Worst RSA Server",
+  "description": "My boss asked me to make a server for safe RSA encryption and decryption, but I don't want to google how to do it securely - how hard can it be?",
+  "author": "Adam",
+  "points": 500,
+  "category": "Crypto",
+  "difficulty": "Hard",
+  "hint": "Cop(p)ersmith will save you",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "server/my_first_worst_rsa_server.py",
+  "tags": ["RSA"],
+  "education_resources": [],
+  "flag": "WMG{i_am_a_10x_developer_because_i_make_10x_as_many_mistakes}",
+  "disabled": false,
+  "deployment_id": "my_first_worst_rsa_server"
+}

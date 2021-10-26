@@ -1,0 +1,21 @@
+{
+    "title": "Lottery",
+    "description": "Win the lottery to get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Hard",
+    "hint": "Have you heard of Z3?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "lottery.zip",
+    "tags": [
+        "PRNG"
+    ],
+    "education_resources": [
+        "https://ericpony.github.io/z3py-tutorial/guide-examples.htm"
+    ],
+    "flag": "WMG{z3_beats_prng_a320bc9d}",
+    "disabled": false,
+    "deployment_id": "lottery"
+}

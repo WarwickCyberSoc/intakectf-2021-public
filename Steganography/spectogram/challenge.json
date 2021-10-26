@@ -1,0 +1,16 @@
+{
+  "title": "Hiding in earshot",
+  "description": "Can you find the flag in this strange audio clip?",
+  "author": "Josh",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "How can we visualise an audio file?",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "hidinginearshot.wav",
+  "tags": [],
+  "education_resources": ["https://en.wikipedia.org/wiki/Steganography", "https://manual.audacityteam.org/"],
+  "flag": "WMG{SpeCto_FlAG_GrAm}",
+  "disabled": false
+}

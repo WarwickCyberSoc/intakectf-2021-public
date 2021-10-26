@@ -1,0 +1,21 @@
+{
+    "title": "My First .NET App",
+    "description": "This is my first .NET app! It's so cool!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Easy",
+    "hint": "You might want to decompile it...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "MyFirstNETProject.exe",
+    "tags": [
+        "Reversing",
+        ".NET"
+    ],
+    "education_resources": [
+        "https://github.com/dnSpy/dnSpy"
+    ],
+    "flag": "WMG{w4I7_My_50URC3_i5_Vi5i8l3_?!_0H_n0!}",
+    "disabled": false
+}

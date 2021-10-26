@@ -1,0 +1,22 @@
+{
+    "title": "regex100",
+    "description": "Basic regex challenge, match the pattern, get the flag",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "Try strings out in https://regex101.com and see if yours matches",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Regular Expression"
+    ],
+    "education_resources": [
+        "https://regex101.com",
+        "https://en.wikipedia.org/wiki/Regular_expression"
+    ],
+    "flag": "WMG{r3g3x_maTches_4nYth1ng}",
+    "disabled": false,
+    "deployment_id": "regex100"
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Funky Traffic Protocol",
+    "description": "We've been tracking some spam login requests to our FTP server, can you find the flag?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Very Easy",
+    "hint": "By right clicking on any FTP packet, select Follow then view TCP stream to view the entire FTP packet stream.",
+    "url": "",
+    "file": "ftp.pcap",
+    "tags": [
+        "Packet Analysis"
+    ],
+    "education_resources": [
+        "https://www.wireshark.org/",
+        "https://wiki.wireshark.org/FTP"
+    ],
+    "flag": "WMG{AlWAyS_USe_SeCuRE_VerSionS_Of_ProTOCols}",
+    "disabled": false
+}

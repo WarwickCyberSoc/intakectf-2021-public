@@ -1,0 +1,22 @@
+{
+    "title": "Anon Notes",
+    "description": "Our new note storing service is available today.",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Medium",
+    "hint": "How does the application verify you haven't modified the cookie?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "anonnotes.zip",
+    "tags": [
+        "HMAC",
+        "PHP"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/HMAC"
+    ],
+    "flag": "WMG{BcRYpT_1s_N0T_SuiTAbL3_F0r_HM4C}",
+    "disabled": false,
+    "deployment_id": "anonnotes"
+}

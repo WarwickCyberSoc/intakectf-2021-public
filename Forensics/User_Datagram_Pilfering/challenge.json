@@ -1,0 +1,18 @@
+{
+    "title": "User Datagram Pilfering",
+    "description": "Looks like somebody has been sending out messages to some random destinations! Can you find the flag in this mess?",
+    "author": "Angus",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Medium",
+    "hint": "Look closer at where the traffic is going...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "challenge.pcap",
+    "tags": [
+        "PCAP Analysis"
+    ],
+    "education_resources": [],
+    "flag": "WMG{PaCkeD_In_Th3_P0rT_NumB3r5!}",
+    "disabled": false
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Reverse Shell 1",
+    "description": "A quick guide about what a reverse shell is and receiving one!",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Very Easy",
+    "hint": "Just follow the guide :)",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Reverse Shell"
+    ],
+    "education_resources": [
+        "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md",
+        "https://en.wikipedia.org/wiki/Arbitrary_code_execution",
+        "https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet",
+        "https://www.offensive-security.com/metasploit-unleashed/binary-payloads/"
+    ],
+    "flag": "WMG{r3v3rse_shE11S_4Re_aWes0me!!}",
+    "disabled": false,
+    "deployment_id": "revshell1"
+}

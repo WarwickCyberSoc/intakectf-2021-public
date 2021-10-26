@@ -1,0 +1,17 @@
+{
+  "title": "Super Secure System Management System Shell Command Center",
+  "description": "NSA gotta start paying those interns more \u00af\\_(\u30c4)_/\u00af\n\nFlag is at `/flag.txt`. Connect to this challenge with `ssh -t -p PORT wmg@IP`",
+  "author": "Ziemni",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Easy",
+  "hint": "One of those options does something weird...",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "",
+  "tags": ["Jail Escape"],
+  "education_resources": ["https://gtfobins.github.io/"],
+  "flag": "WMG{at_l3aST_its_n0t_emacs_\u00af\\_(\u30c4)_/\u00af}",
+  "disabled": false,
+  "deployment_id": "secureshell"
+}

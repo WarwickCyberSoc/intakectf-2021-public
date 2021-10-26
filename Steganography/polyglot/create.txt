@@ -1,0 +1,5 @@
+run create_data.py
+
+zip data.zip data key.png
+
+cat surreal_orig.jpg data.zip >> surreal.jpg

@@ -1,0 +1,20 @@
+{
+    "title": "Missing Bytes",
+    "description": "This PNG won't open... Can you help me figure out why?",
+    "author": "Angus",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Medium",
+    "hint": "What's missing in the IHDR chunk?",
+    "url": "",
+    "file": "flag.png",
+    "tags": [
+        "Tools",
+        "Scripting"
+    ],
+    "education_resources": [
+        "https://www.w3.org/TR/PNG-Chunks.html"
+    ],
+    "flag": "WMG{BruT3_F0rc3_Fun}",
+    "disabled": false
+}

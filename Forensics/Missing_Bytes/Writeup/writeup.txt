@@ -1,0 +1,12 @@
+This challenge takes a PNG image with 0x0 dimensions, and the task is to identify what's wrong and fix it.
+
+A quick look at the header file will reveal that the image actually has 0x0 dimensions, so it'll never open
+if the dimensions aren't correct. 
+
+So, the idea here is to brute force the dimensions of the image. I've provided a Python solve script,
+which will check the image CRC in order to determine if the correct dimensions have been found.
+
+
+
+
+

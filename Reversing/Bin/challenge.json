@@ -1,0 +1,21 @@
+{
+    "title": "Bin",
+    "description": "This bin has a secret password, maybe there's a way to find it by looking at the binary in more detail",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Very Easy",
+    "hint": "The password might be a complete string",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "bin",
+    "tags": [
+        "RE",
+        "Binary"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Binary_file"
+    ],
+    "flag": "WMG{r3v3r51ng_s33ms_e4sy}",
+    "disabled": false
+}

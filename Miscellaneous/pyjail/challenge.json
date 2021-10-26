@@ -1,0 +1,17 @@
+{
+  "title": "PYJAAAAAAAAAAAAAAAAIL",
+  "description": "Escape the Python Jail.",
+  "author": "Josh",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Medium",
+  "hint": "There's a lot of ways text can be represented...",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "jail.zip",
+  "tags": ["Jail Escape"],
+  "education_resources": ["https://www.google.com/search?q=pyjail"],
+  "flag": "WMG{py7h0n_p4r71c1p4735_1n_4_m1ld_4m0un7_0f_un1c0d3_n0rm4l154710n}",
+  "disabled": false,
+  "deployment_id": "pyjail"
+}

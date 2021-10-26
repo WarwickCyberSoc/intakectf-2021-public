@@ -1,0 +1,20 @@
+{
+  "title": "Recovery",
+  "description": "jdb_jdb has been hacked again, we managed to get a dump. Figure out how the hackers got in",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Forensics",
+  "difficulty": "Medium",
+  "hint": "You may have seen .disk files on the course already",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "recovery.tar.gz",
+  "tags": ["Forensics", "Recovery", "Hash Cracking"],
+  "education_resources": [
+    "https://helpmanual.io/man1/uml_moo/",
+    "https://miloserdov.org/?p=5191#49",
+    "https://github.com/danielmiessler/SecLists"
+  ],
+  "flag": "WMG{d0n't_u53_w34k_p@55w0rds}",
+  "disabled": false
+}

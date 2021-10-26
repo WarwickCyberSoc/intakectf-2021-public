@@ -1,0 +1,15 @@
+{
+  "title": "AI",
+  "description": "I have made an AI using Tensorflow which reads important documents for me. Unfortunately, after the recent crash I managed to recover only those two models. Can you help me recover some important information from them?",
+  "author": "Ziemni",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Medium",
+  "hint": "Read education resources carefully, the answer is in there. Challenge was tested on Google Colaboratory's default Tensorflow installation.",
+  "url": "",
+  "file": "models.zip",
+  "tags": ["Machine Learning", "Tensorflow"],
+  "education_resources": ["https://www.tensorflow.org/text/tutorials/text_generation"],
+  "flag": "WMG{d1d_u_ju5t_c0de_an_ai??!?!}",
+  "disabled": false
+}

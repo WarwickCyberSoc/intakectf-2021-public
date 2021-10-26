@@ -1,0 +1,17 @@
+{
+  "title": "Fork You",
+  "description": "\"Make it whatever you want, no one reads the descriptions\" - Adam",
+  "author": "Adam",
+  "points": 500,
+  "category": "Pwn",
+  "difficulty": "Hard",
+  "hint": "Fork makes an **exact** copy.",
+  "unlock_requirement": "",
+  "url": "SET ME LATER PLEASE",
+  "file": "fork_you.zip",
+  "tags": ["ROP"],
+  "education_resources": ["https://man7.org/linux/man-pages/man2/fork.2.html"],
+  "flag": "WMG{y0u_d3f1n173ly_d0n'7_637_f0rk3d}",
+  "disabled": false,
+  "deployment_id": "fork_you"
+}

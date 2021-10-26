@@ -1,0 +1,21 @@
+{
+    "title": "cope",
+    "description": "Write to an address and get a shell!",
+    "author": "Josh (kinda Angus)",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Very Easy",
+    "hint": "Where's `RIP` in relation to the dropped pointer?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "server/vuln",
+    "tags": [
+        "TODO"
+    ],
+    "education_resources": [
+        "TODO"
+    ],
+    "flag": "WMG{thats_a_very_handy_vuln_function_w0w}",
+    "disabled": false,
+    "deployment_id": "write_to_address"
+}

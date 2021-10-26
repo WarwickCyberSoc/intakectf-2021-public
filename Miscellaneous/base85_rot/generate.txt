@@ -1,0 +1,1 @@
+https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)To_Base85('0-9a-zA-Z.%5C%5C-:%2B%3D%5E!/*?%26%3C%3E()%5B%5D%7B%7D@%25$%23',false)&input=V2hpbGUgQmFzZTY0IGlzIHZlcnkgY29tbW9uLCB0aGVyZSdzIGxvdHMgb2YgZGlmZmVyZW50IGJhc2VzIHlvdSBjYW4gdXNlIDotKSBXTUd7QkFTZV9FaUdodFlfRmlWZV9Jc19XaWxEfQ

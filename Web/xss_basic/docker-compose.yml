@@ -1,0 +1,25 @@
+version: "3"
+
+x-deployment:
+  stack: "web-xss"
+  challenge_id: "xss"
+  challenge_service: "web"
+
+services:
+  web:
+    build: .
+    ports:
+      - 80:5000
+    links:
+      - driver
+    depends_on:
+      - driver
+  driver:
+    image: selenium/standalone-chrome
+    shm_size: "2g"
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

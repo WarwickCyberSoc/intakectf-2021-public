@@ -1,0 +1,15 @@
+{
+  "title": "Beep Boop",
+  "description": "Beep Boop",
+  "author": "Angus",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "",
+  "url": "",
+  "file": "beepboop.wav",
+  "tags": ["Aliens"],
+  "education_resources": [],
+  "flag": "WMG{s1gn4ls_fR0m_5pAc3}",
+  "disabled": false
+}

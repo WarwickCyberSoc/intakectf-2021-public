@@ -1,0 +1,16 @@
+{
+  "title": "Pictures never lie",
+  "description": "Why do pictures have so much information?",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "Maybe there's a TOOL that might help?",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "space.png",
+  "tags": ["Tools", "Metadata", "Images"],
+  "education_resources": ["https://en.wikipedia.org/wiki/Metadata#Photographs"],
+  "flag": "WMG{metadata_h45_l04d5_0f_1nf0}",
+  "disabled": false
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Buffer Overflow 5",
+    "description": "Overflow the buffer and get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Medium",
+    "hint": "Who says you have to return to the start of a function?",
+    "unlock_requirement": "Buffer Overflow 4",
+    "url": "SET ME LATER PLEASE",
+    "file": "bof5.zip",
+    "tags": [
+        "Buffer Overflow",
+        "ROP"
+    ],
+    "education_resources": [
+        "https://youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+    ],
+    "flag": "WMG{xor_encore_0aa01a69}",
+    "disabled": false,
+    "deployment_id": "bof5"
+}

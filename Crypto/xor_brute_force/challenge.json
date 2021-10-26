@@ -1,0 +1,18 @@
+{
+    "title": "Exclusive Or",
+    "description": "Angus rolled his own crypto...",
+    "author": "Josh",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Easy",
+    "hint": "That key is super short...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "exclusive_or.zip",
+    "tags": [],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Bitwise_operation#XOR_2"
+    ],
+    "flag": "WMG{X0r_ISnT_ReAllY_EnCrYpT10n?1!1!}",
+    "disabled": false
+}

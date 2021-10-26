@@ -1,0 +1,94 @@
+[
+    {
+        "title": "Back2Basics: GET to the flag!",
+        "description": "Send a GET request to this website with 2 GET parameters `a` and `b` that sum to 100.",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Very Easy",
+        "unlock_requirement": "",
+        "hint": "URL parameters are in the format http://example.com?param1=hello&param2=world",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [],
+        "education_resources": [
+            "https://en.wikipedia.org/wiki/Query_string",
+            "https://linux.die.net/man/1/curl"
+        ],
+        "flag": "WMG{GeT_ParamS_ArE_AnYWhErE_AnD_EveryWherE}",
+        "disabled": false,
+        "deployment_id": "back2basics"
+    },
+    {
+        "title": "Back2Basics: Please POST to me",
+        "description": "Send a POST request to `/mail` with the content `mail me the flag`.",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Very Easy",
+        "unlock_requirement": "",
+        "hint": "You can specify content with the --data flag in curl.",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [],
+        "education_resources": [
+            "https://linux.die.net/man/1/curl"
+        ],
+        "flag": "WMG{PoST_Is_VeRY_HelPFuL_FoR_HtTp}",
+        "disabled": false,
+        "deployment_id": "back2basics"
+    },
+    {
+        "title": "Back2Basics: JavaScript?",
+        "description": "Find the flag inside the page.",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Very Easy",
+        "unlock_requirement": "",
+        "hint": "Use `CTRL+U` to view the entire page's source code.",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [],
+        "education_resources": [],
+        "flag": "WMG{HiDDen_In_ThE_PaGeS_SCripTS}",
+        "disabled": false,
+        "deployment_id": "back2basics"
+    },
+    {
+        "title": "Back2Basics: Cookie Jar",
+        "description": "What's in the cookie jar?",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Very Easy",
+        "unlock_requirement": "",
+        "hint": "Use Developer tools in your browser to view the cookies set by the website.",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [],
+        "education_resources": [],
+        "flag": "WMG{USeRs_ConTRol_ThE_CooKie_JaR}",
+        "disabled": false,
+        "deployment_id": "back2basics"
+    },
+    {
+        "title": "Back2Basics: User-Agent, Content-Type, Host",
+        "description": "What's the metadata sent back from this website?",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Very Easy",
+        "unlock_requirement": "",
+        "hint": "Use Developer tools in your browser to view the entire HTTP request for the website.",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [],
+        "education_resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers"
+        ],
+        "flag": "WMG{HTtP_HeADErS_Can_SToRE_CReDenTiAls!1!}",
+        "disabled": false,
+        "deployment_id": "back2basics"
+    }
+]

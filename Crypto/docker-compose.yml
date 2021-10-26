@@ -1,0 +1,39 @@
+version: "3"
+
+x-deployment:
+  stack: "crypto"
+
+services:
+  aes_bit_flipping:
+    build: ./aes_bit_flipping
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 30000:5000
+  lottery:
+    build: ./lottery/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 30001:5000
+  my_first_worst_rsa_server:
+    build: ./my_first_worst_rsa_server/server
+    read_only: true
+    cap_drop:
+      - "ALL"
+    security_opt:
+      - "no-new-privileges"
+    ports:
+      - 30002:5000
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

@@ -1,0 +1,23 @@
+{
+    "title": "regex101",
+    "description": "Upping the ante a little bit. Now with group matching!",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "https://regex101.com also has a debugger mode if the groups are confusing",
+    "unlock_requirement": "regex100",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Regular Expression"
+    ],
+    "education_resources": [
+        "https://regex101.com",
+        "https://en.wikipedia.org/wiki/Regular_expression"
+    ],
+    "flag": "WMG{r3g3x_is_4cTu4lly_qu1T3_34sy}",
+    "disabled": false,
+    "deployment_id": "regex101"
+}
+

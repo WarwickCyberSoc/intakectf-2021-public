@@ -1,0 +1,21 @@
+{
+    "title": "Curling is fun!",
+    "description": "Curling is super fun! Can you find the hidden flag in this website?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Easy",
+    "unlock_requirement": "",
+    "hint": "What happens when you `curl` the website?",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Tools"
+    ],
+    "education_resources": [
+        "https://linux.die.net/man/1/curl"
+    ],
+    "flag": "WMG{CuRl_Is_SupER_UsEFul_In_CTfS}",
+    "disabled": false,
+    "deployment_id": "curlintro"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Sanity Check",
+  "description": "Obligatory sanity check challenge.",
+  "author": "Josh",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Easy",
+  "hint": "Read the help page.",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "",
+  "tags": [],
+  "education_resources": [],
+  "flag": "WMG{wowee_a_free_flag???}",
+  "disabled": false
+}

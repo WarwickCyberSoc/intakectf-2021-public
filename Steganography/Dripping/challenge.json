@@ -1,0 +1,20 @@
+{
+    "title": "Dripping",
+    "description": "What's that dripping in the image?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Stego",
+    "difficulty": "Easy",
+    "hint": "There seems to be a pattern with the dripping...",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "dripping.png",
+    "tags": [
+        "Scripting"
+    ],
+    "education_resources": [
+        "https://pillow.readthedocs.io/en/stable/"
+    ],
+    "flag": "WMG{th3_833_m0V13_5CR1Pt_H1DD3N_1n_4_1m4G3,h0W_0r1G1n4l}",
+    "disabled": false
+}

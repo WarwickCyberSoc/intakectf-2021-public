@@ -1,0 +1,21 @@
+{
+    "title": "Timing is Everything",
+    "description": "Crack the code to get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Medium",
+    "hint": "Do some attempts take longer than others?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "timing_is_everything.zip",
+    "tags": [
+        "Side Channel Attack"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Side-channel_attack"
+    ],
+    "flag": "WMG{side-channel_attacks_are_scary_27a2dfd0}",
+    "disabled": false,
+    "deployment_id": "timing_is_everything"
+}

@@ -1,0 +1,29 @@
+version: "3"
+
+x-deployment:
+  stack: "web-itemshop_p1"
+  challenge_id: "itemshop_p1"
+  challenge_service: "web"
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    links:
+      - mysql
+  mysql:
+    build:
+      context: .
+      dockerfile: Dockerfile.db
+    environment:
+      MYSQL_ROOT_PASSWORD: "AFWFJHAWDAWJHASDADWAW"
+      MYSQL_USER: "tutorial"
+      MYSQL_PASSWORD: "secret"
+      MYSQL_DATABASE: "webapp"
+
+networks:
+  default:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1442

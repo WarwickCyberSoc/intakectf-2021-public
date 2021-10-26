@@ -1,0 +1,19 @@
+{
+    "title": "Finance",
+    "description": "We've intercepted a possibly malicious phishing document sent to one of the staff, try and figure out where it came from or what it does.",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Forensics",
+    "difficulty": "Easy",
+    "hint": "Maybe look at the Pseudo-code",
+    "url": "",
+    "file": "finance document.docm",
+    "tags": [
+        "Tools"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Visual_Basic"
+    ],
+    "flag": "WMG{ph1sh1ng_s71Ll_w0rkS}",
+    "disabled": false
+}

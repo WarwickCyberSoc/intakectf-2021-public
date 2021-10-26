@@ -1,0 +1,21 @@
+{
+    "title": "SIGSEGV",
+    "description": "Make this binary segmentation fault!",
+    "author": "Josh",
+    "points": 500,
+    "category": "Pwn",
+    "difficulty": "Very Easy",
+    "hint": "The buffer length is only 30 characters.",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "Buffer Overflow"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Segmentation_fault"
+    ],
+    "flag": "WMG{SeGFauLtS?!_Uh_0H_Tim3_T0_DeBuG!}",
+    "disabled": false,
+    "deployment_id": "segfault_me"
+}

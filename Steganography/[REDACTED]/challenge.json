@@ -1,0 +1,16 @@
+{
+  "title": "[REDACTED]",
+  "description": "[REDACTED]",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "image.jpg",
+  "tags": ["Beter Norris", "Agent B"],
+  "education_resources": [],
+  "flag": "WMG{b3t3r_n0rr1s}",
+  "disabled": false
+}

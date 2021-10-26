@@ -1,0 +1,69 @@
+[
+    {
+        "title": "The License Store: Part 1",
+        "description": "Come view our new products today!",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Easy",
+        "hint": "What happens if you send something that isn't a string to the login page?",
+        "unlock_requirement": "",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [
+            "PHP",
+            "Type Confusion"
+        ],
+        "education_resources": [
+            "https://www.php.net/manual/en/function.strcmp.php"
+        ],
+        "flag": "WMG{AlwAys_Ch3Ck_Y0uR_InpUt_TYpES_Proper1y!1}",
+        "disabled": false,
+        "deployment_id": "itemshop_p1"
+    },
+    {
+        "title": "The License Store: Part 2",
+        "description": "We've tightened up our admin panel and added some new features to the product page. Enjoy!",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Easy",
+        "hint": "What happens if you sort by something that doesn't exist?",
+        "unlock_requirement": "The License Store: Part 1",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [
+            "PHP",
+            "SQLi"
+        ],
+        "education_resources": [
+            "https://owasp.org/www-community/attacks/SQL_Injection",
+            "https://sqlmap.org/"
+        ],
+        "flag": "WMG{w3_D0_4_L1TtL3_81t_0F_5Ql_1N3CJT10n}",
+        "disabled": false,
+        "deployment_id": "itemshop_p2"
+    },
+    {
+        "title": "The License Store: Part 3",
+        "description": "SQL injection is no more! Feel free to browse our reviews!",
+        "author": "Josh",
+        "points": 500,
+        "category": "Web",
+        "difficulty": "Medium",
+        "hint": "How does the site load different reviews?",
+        "unlock_requirement": "The License Store: Part 2",
+        "url": "SET ME LATER PLEASE",
+        "file": "",
+        "tags": [
+            "PHP",
+            "LFI"
+        ],
+        "education_resources": [
+            "https://www.aptive.co.uk/blog/local-file-inclusion-lfi-testing/"
+        ],
+        "flag": "WMG{PHp_f1LT3r_V3ry_U53fUL_TO_R34D_PHP_f1l35}",
+        "disabled": false,
+        "deployment_id": "itemshop_p3"
+    }
+]

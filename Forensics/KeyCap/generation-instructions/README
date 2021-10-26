@@ -1,0 +1,4 @@
+For this challenge, I've used a Bluetooth Keyboard on my phone to send keystrokes over the air, and capture them
+using BTMON. This leads to a btsnoop capture, which can then be decoded into a flag.
+
+Basically if we need to re-gen the flag it's dead easy, just ask me to do it...

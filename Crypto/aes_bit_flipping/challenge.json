@@ -1,0 +1,21 @@
+{
+    "title": "Flip Flops",
+    "description": "A friendly robot is offering you a flag and all you need is to give him the magical password.",
+    "author": "Josh",
+    "points": 500,
+    "category": "Crypto",
+    "difficulty": "Medium",
+    "hint": "A quick google of AES and the challenge title will give you all you need...",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "app/the_nice_robot.py",
+    "tags": [
+        "AES"
+    ],
+    "education_resources": [
+        "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)"
+    ],
+    "flag": "WMG{THAts_FlipPinG_CrAzY_!11!}",
+    "disabled": false,
+    "deployment_id": "aes_bit_flipping"
+}

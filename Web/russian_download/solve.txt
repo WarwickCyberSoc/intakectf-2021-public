@@ -1,0 +1,11 @@
+We can utilise the HTTP header Content-Range to specify what bytes of the file we want to download.
+
+As the hint mentions 64MB, we can start retrieving the file from this point:
+
+64 Megabytes (MB)	=	67,108,864 Bytes (B)
+
+curl http://challengeurl/download/data.csv -r 67108864-68108864
+
+After a couple of responses...
+
+WMG{d0wnl04d_l1m175_4r3_n0_ch4ll3n63_f0r_y0u},Sarah Chung,F,"0377 Johnston Viaduct Apt. 137\nSarahstad, RI 01053",jacksonaustin@gmail.com,1925-03-03

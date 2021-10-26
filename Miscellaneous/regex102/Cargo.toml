@@ -1,0 +1,6 @@
+[package]
+name="regex102"
+version="1.0.0"
+
+[dependencies]
+fancy-regex="0.7.1"

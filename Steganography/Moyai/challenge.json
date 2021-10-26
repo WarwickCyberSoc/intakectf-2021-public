@@ -1,0 +1,16 @@
+{
+  "title": "🗿",
+  "description": "Easter island stone face 🗿",
+  "author": "Adam",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Medium",
+  "hint": "Moyai and?",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "moyai.txt",
+  "tags": ["Moyai"],
+  "education_resources": ["https://emojipedia.org/emoji/%F0%9F%97%BF/"],
+  "flag": "WMG{🗿_🗿_🗿}",
+  "disabled": false
+}

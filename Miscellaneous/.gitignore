@@ -1,0 +1,12 @@
+# regex10*/target/*
+regex10*/target/release/.fingerprint*
+regex10*/target/release/build
+regex10*/target/release/deps
+regex10*/target/release/examples
+regex10*/target/release/incremental
+regex10*/target/release/.cargo-lock
+regex10*/target/release/regex*.d
+regex10*/target/.rustc_info.json
+regex10*/target/CACHEDIR.TAG
+regex10*/target/rls
+regex10*/Cargo.lock

@@ -1,0 +1,16 @@
+{
+  "title": "Unusually Printable",
+  "description": "My friend sent me this string - ``` `PYj0X40HP[j0X0Y50AO0YO0Y`0Aa0Ya0Ab0Yi0Aj0Yj0Ak0Ym0YnrII0Y70A80Y80A90Y=0Y>0YGQZOyI&t<j0X40P[2YIC?,42AJ@$<?'20'wBIj0X40P[2YJC2AK@?,6$?0'wBJBBAAAuAaEb]Lz]GHgHAZHiLEa_HiPHpgHy\\HMYEaLHYPGlgGqYIANEaNGu]HXgIaqJaCGNk?a~?_????GlsJoCN^UGdsJoCC|tNMBKOGJ_C????Az?C????Gf`Jg_????BLGAw?C????Jk?????BLGAO&``` for some reason, he thought it was unusual that it was printable...",
+  "author": "Adam",
+  "points": 500,
+  "category": "Misc",
+  "difficulty": "Hard",
+  "unlock_requirement": "",
+  "hint": "This really puts the 'code' in 'encoded'",
+  "url": "",
+  "file": "unusually_printable.txt",
+  "tags": [""],
+  "education_resources": [],
+  "flag": "WMG{praise_printable_encoder!!!}",
+  "disabled": false
+}

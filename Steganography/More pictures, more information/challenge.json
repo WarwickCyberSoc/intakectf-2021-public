@@ -1,0 +1,16 @@
+{
+  "title": "More pictures, more information",
+  "description": "There's still pictures, but this time there's 30.",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "Maybe revisit your TOOL but run it a few more times...",
+  "unlock_requirement": "Pictures never lie",
+  "url": "",
+  "file": "pictures.tar.gz",
+  "tags": ["Tools", "Metadata", "Images", "Scripting"],
+  "education_resources": ["https://en.wikipedia.org/wiki/Metadata#Photographs"],
+  "flag": "WMG{700_much_metadata_15_b4d}",
+  "disabled": false
+}

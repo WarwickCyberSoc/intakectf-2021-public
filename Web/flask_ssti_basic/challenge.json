@@ -1,0 +1,22 @@
+{
+    "title": "Netkit 2 Launch",
+    "description": "A promotional page has launched for Netkit 2, can you find the flag?",
+    "author": "Josh",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Easy",
+    "hint": "What happens if you submit text that isn't an email?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "SSTI"
+    ],
+    "education_resources": [
+        "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md",
+        "https://www.onsecurity.io/blog/server-side-template-injection-with-jinja2/"
+    ],
+    "flag": "WMG{UsE_Y0uR_T3mPlATE_EnGin3_N0T_Fo5mAT_StRinG_!!!}",
+    "disabled": false,
+    "deployment_id": "flask_ssti"
+}

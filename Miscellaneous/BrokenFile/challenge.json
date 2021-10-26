@@ -1,0 +1,23 @@
+{
+    "title": "Broken File",
+    "description": "Our picture is broken but we're not sure why. We archived it up to keep it from breaking even more.",
+    "author": "jdb_jdb",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Easy",
+    "hint": "Maybe some bytes have been magically changed.",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "1000.tar.gz",
+    "tags": [
+        "Tools",
+        "Images",
+        "Scripting"
+    ],
+    "education_resources": [
+        "https://linux.die.net/man/1/tar",
+        "https://en.wikipedia.org/wiki/File_format#Magic_Number"
+    ],
+    "flag": "WMG{h0W_d1d_th3_pnG_brEAk}",
+    "disabled": false
+}

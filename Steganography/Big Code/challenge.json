@@ -1,0 +1,16 @@
+{
+  "title": "Big Code",
+  "description": "I thought this was a QR code, but it must be something similar.",
+  "author": "jdb_jdb",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "I think I've seen parcels have it.",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "picture.png",
+  "tags": ["Tools", "Google", "Images"],
+  "education_resources": [""],
+  "flag": "WMG{str4ng3_c0d3}",
+  "disabled": false
+}

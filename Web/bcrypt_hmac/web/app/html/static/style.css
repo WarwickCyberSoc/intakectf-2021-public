@@ -1,0 +1,29 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+.submit-button {
+  font-family: "Permanent Marker", cursive;
+  border: 0;
+  background-color: grey;
+  color: white;
+  padding: 0.25rem 1rem;
+  font-size: 1.25rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+#container {
+  width: 700px;
+  margin: auto;
+}

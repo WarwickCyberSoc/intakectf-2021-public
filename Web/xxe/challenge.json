@@ -1,0 +1,22 @@
+{
+    "title": "Incredibly Bad Session Management",
+    "description": "i don't know how to code websites :(\n\nFlag is at `/flag.txt`.",
+    "author": "Ziemni",
+    "points": 500,
+    "category": "Web",
+    "difficulty": "Easy",
+    "hint": "What's in your cookies?",
+    "unlock_requirement": "",
+    "url": "SET ME LATER PLEASE",
+    "file": "",
+    "tags": [
+        "XML",
+        "PHP"
+    ],
+    "education_resources": [
+        "https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing"
+    ],
+    "flag": "WMG{wh0_d0esnt_l1k3_Inj3cting_th3Ir_ent1tIEs_int0_0bject5}",
+    "disabled": false,
+    "deployment_id": "xxe"
+}

@@ -1,0 +1,3 @@
+https://gchq.github.io/CyberChef/#recipe=To_Hex('Space',0)&input=V01He0QxRkZfVGhFX0J5VDNzfQ
+
+I then downloaded an image of the imc, converted to png, then just went through and changed bytes throughout the file to the hex from Cyberchef 

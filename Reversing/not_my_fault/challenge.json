@@ -1,0 +1,24 @@
+{
+    "title": "Not My Fault",
+    "description": "Reverse engineer the program and get the flag.",
+    "author": "Oshawk",
+    "points": 500,
+    "category": "Reversing",
+    "difficulty": "Very Hard",
+    "hint": "That RWX page could be interesting.",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "not_my_fault",
+    "tags": [
+        "Obfuscation",
+        "SSE"
+    ],
+    "education_resources": [
+        "https://man7.org/linux/man-pages/man2/mprotect.2.html",
+        "https://man7.org/linux/man-pages/man2/sigaction.2.html",
+        "https://man7.org/linux/man-pages/man2/sigreturn.2.html",
+        "https://en.wikibooks.org/wiki/X86_Assembly/SSE"
+    ],
+    "flag": "WMG{sigsegv_not_for_me_9fd9bd4d}",
+    "disabled": false
+}

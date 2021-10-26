@@ -1,0 +1,16 @@
+{
+  "title": "\u263b",
+  "description": "There's no story behind this one, it's just a bit of fun...",
+  "author": "Josh",
+  "points": 500,
+  "category": "Stego",
+  "difficulty": "Easy",
+  "hint": "\u24c3\u24c4",
+  "unlock_requirement": "",
+  "url": "",
+  "file": "bit_of_fun.png",
+  "tags": [],
+  "education_resources": [],
+  "flag": "WMG{ThE_0RiG1nAl_EmoJis}",
+  "disabled": false
+}

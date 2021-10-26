@@ -1,0 +1,20 @@
+{
+    "title": "All your bases are belong to us",
+    "description": "n{br5AV!d}w]Y^^aA?utx(W^3aAg!oDsyqlazk?qwPxegaBdBew/$M7aAqNCB8>&jvp{Z3zF0{3az+I2aAhjbaztwcauz86awb*pDRWyaA:IZ/rcq?EuShbtA:I<VuQ!Z1nmLK^uSgS7Ee",
+    "author": "Josh",
+    "points": 500,
+    "category": "Misc",
+    "difficulty": "Medium",
+    "hint": "What are some alternatives to the commonly used Base64?",
+    "unlock_requirement": "",
+    "url": "",
+    "file": "",
+    "tags": [
+        "Encoding"
+    ],
+    "education_resources": [
+        "https://gchq.github.io/CyberChef/"
+    ],
+    "flag": "WMG{BASe_EiGhtY_FiVe_Is_SuUUpER_FuN}",
+    "disabled": false
+}

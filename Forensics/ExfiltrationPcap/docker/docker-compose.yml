@@ -1,0 +1,21 @@
+version: "3"
+services:
+  web:
+    image: pensiero/apache-php-mysql
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www
+    links:
+      - mysql
+  mysql:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: "secret"
+      MYSQL_USER: "tutorial"
+      MYSQL_PASSWORD: "secret"
+      MYSQL_DATABASE: "webapp"
+    volumes:
+      - ./dbinit:/docker-entrypoint-initdb.d
+    ports:
+      - 3306:3306
